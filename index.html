@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form id="formPendaftaran">
+        <h1>Form Pendaftaran Ekskul</h1>
+        <h2>SMK Letris Pamulang</h2>
+
+        <label> Nama Lengkap:</label>
+        <input type="text" id="nama" placeholder="Masukkan nama Siswa">
+        
+        <br><br>
+
+        <label>Kelas:</label>
+          <input type="radio" name="kelas" value="x">x
+          <input type="radio" name="kelas" value="xi">xi
+          <input type="radio" name="kelas" value="xii">xii
+
+          <br><br>
+
+          <label>Jurusan:</label>
+          <select id="jurusan">
+            <option value="">Pilih Jurusan</option>
+            <option value="PPLG">PPLG</option>
+            <option value="DKV">DKV</option>
+            <option value="TJKT">TJKT</option>
+            <option value="AKL">AKL</option>
+            <option value="BDP">BDP</option>
+            <option value="MPLB">MPLB</option>
+          </select>
+
+          <br><br>
+
+          <label>Pilihan Ekskul</label>
+          <select id="eskul">
+            <option value="">Pilih Ekstrakurikuler</option>
+            <option value="Animasi">Animasi</option>
+            <option value="Paskibra">Paskibra</option>
+            <option value="Volly">Volyy</option>
+            <option value="Basket">Basket</option>
+            <option value="Futsal">Futsal</option>
+            <option value="Letsin">Letsin</option>
+            <option value="Pmr">Pmr</option>
+            <option value="Dance">Dance Modern</option>
+          </select>
+
+          <br><br>
+          <button type="submit">Tambah DATA</button>
+    </form>
+
+    <br>
+    <h2>Data Pendaftaran Siswa</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Kelas</th>
+                <th>Jurusan</th>
+                <th>Eksul</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+    </table>
+    
+</body>
+</html> 

@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+form {
+    width: 700px;
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #244493;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+}
+
+button {
+    background-color: #20c763;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #18a952;
+}
+
+table {
+    width: 700px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #244493;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-edit {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+}
+
+.btn-delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+}
